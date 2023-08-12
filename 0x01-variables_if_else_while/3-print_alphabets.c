@@ -16,7 +16,7 @@ int main(void)
 			m++;
 		}
 	while
-		(n <= 'z') {
+		(n <= 'Z') {
 			putchar(n);
 			n++;
 		}
