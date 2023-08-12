@@ -8,10 +8,10 @@ int main(void)
 	int nom;
 	char digit;
 
-	for (nom = 0; nom < 16; nom++)
-		putchar(nom);
+	for (nom = 0; nom < 10; nom++)
+		putchar((nom % 10) + '0');
 
-	for (digit = 'a'; digit <= 'p'; digit++)
+	for (digit = 'a'; digit <= 'f'; digit++)
 		putchar(digit);
 
 	putchar('\n');
