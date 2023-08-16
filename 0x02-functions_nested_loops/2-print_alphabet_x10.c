@@ -3,14 +3,14 @@
  * print_alphabet_x10 - prints 10 times the alphabet in lowercase
  * 10 times in lowercase
  */
-void print_alpjabet_x10(void)
+void print_alphabet_x10(void)
 {
 	int x;
-	int y;
+	char y;
 
-	for (y = 1; x <= 10; x++)
+	for (x = 0; x <= 10; x++)
 	{
-		for (y = 97; y <= 122; y++)
+		for (y = 'a'; y <= 'z'; y++)
 		{
 			_putchar(y);
 		}
