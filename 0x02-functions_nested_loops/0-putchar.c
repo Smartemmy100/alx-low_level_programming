@@ -1,8 +1,9 @@
 #include "main.h"
 /**
- * main - Entry level stage
+ * main - print _putchar file
  * Return: 0 (successful)
  */
+
 int main(void)
 {
 	_putchar('_');
@@ -10,8 +11,10 @@ int main(void)
 	_putchar('u');
 	_putchar('t');
 	_putchar('c');
+	_putchar('h');
 	_putchar('a');
 	_putchar('r');
 	_putchar('\n');
 	return (0);
 }
+
