@@ -1,9 +1,9 @@
 #include <stdio.h>
 
 /**
-  * main - causes an inifinate loop
-  * Return: 0
-  */
+* main - causes an inifinate loop
+* Return: 0
+*/
 
 int main(void)
 {
