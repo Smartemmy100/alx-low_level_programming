@@ -5,18 +5,18 @@
   *@s: pointer with the constant byte
   *@b: constant byte
   *@n: number of bytes
-  *Return: 0
+  *Return: s
   */
 
 char *_memset(char *s, char b, unsigned int n)
 {
-	unsigned int e;
+	unsigned int i;
 
-	e = 0;
-	while (e < n)
+	i = 0;
+	while (i < n)
 	{
-		s[e] = b;
-		e++;
+		s[i] = b;
+		i++;
 	}
-return (0);
+return (s);
 }
