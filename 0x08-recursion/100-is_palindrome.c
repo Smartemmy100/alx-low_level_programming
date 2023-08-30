@@ -13,6 +13,7 @@ int length(char *);
 int is_palindrome(char *s)
 {
 	int leng;
+
 	leng = length(s);
 	return (check(s, leng - 1));
 }
