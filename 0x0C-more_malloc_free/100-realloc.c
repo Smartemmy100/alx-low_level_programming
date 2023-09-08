@@ -2,7 +2,6 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-
 /* Custom min macro for unsigned int */
 #define MIN(a, b) (((a) < (b)) ? (a) : (b))
 /**
@@ -24,12 +23,12 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		free(ptr);
 		return (NULL);
 	}
-	/* If ptr is NULL, then the call is equivalent to malloc(new_size) */
+	/* If ptr is NULL, then the call is(new_size) */
 	else if (ptr == NULL)
 	{
 		return (malloc(new_size));
 	}
-	/* If new_size == old_size do not do anything and return ptr */
+	/* If new_size == old_size do not do */
 	else if (new_size == old_size)
 	{
 		return (ptr);
@@ -54,7 +53,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 		}
 		else
 		{
-			return (NULL);
 		}
 	}
+return (NULL);
 }
