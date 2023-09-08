@@ -27,7 +27,7 @@ void *_realloc(void *ptr, unsigned int old_size, unsigned int new_size)
 	/* If ptr is NULL, then the call is equivalent to malloc(new_size) */
 	else if (ptr == NULL)
 	{
-		return malloc (new_size);
+		return (malloc(new_size));
 	}
 	/* If new_size == old_size do not do anything and return ptr */
 	else if (new_size == old_size)
